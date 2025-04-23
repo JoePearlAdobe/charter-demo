@@ -12,9 +12,9 @@ main .hero-container {
 main .hero {
     /* position: relative; */
     /* padding: 32px; */
-    min-height: 120px;
-    max-height: 120px;
-    padding: 5px;    
+    min-height: 300px;
+    max-height: 300px;
+    padding: 12px;    
     color: var(--background-color);
 }
 
@@ -27,9 +27,9 @@ main .hero .hero-body {
     z-index: 1;
     color: white;
     text-shadow: 1px 1px 2px #000;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 24px
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 36px
 }
 
 
@@ -48,14 +48,14 @@ main .hero picture {
     object-fit: cover;
     box-sizing: border-box;
     width: 100%;
-    max-height: 120px;
+    max-height: 300px;
     height: auto; 
 }
 
 main .hero img {
     object-fit: cover;
     width: 100%;
-    max-height: 120px;
+    max-height: 300px;
     height: 100%;
 }
 
